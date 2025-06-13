@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+        //classes
+        class Car{
+            constructor(name){
+                this.brand = name;
+            }
+            present(){
+                return 'I have a'+this.brand;
+            }
+        }
+        const mycar = new Car("BMW");
+        document.write(mycar.present());
+
+        class Model extends Car{
+            constructor(name,mod){
+                
+            }
+
+        }
+
+    </script>
+</body>
+</html>

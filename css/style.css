@@ -1,0 +1,59 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Oswald:wght@200..700&display=swap');
+
+span{
+    /* border:3px dashed #d70f0f; */
+    /* border-top:5px solid #a45933;
+    border-bottom: 5px solid #0000FF;
+    border-left: 5px solid #c51919;
+    border-right:5px solid #2ea1e3;
+    display:block;
+    width: 150px;
+    text-align: center;/*left, right, center, justify*/
+    /* font-size: 20px;/* px, em, rem*/
+   /* font-weight: bold;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  
+}*/
+/* solid, dotted, dashed, double, groove, ridge, inset, outset, none  */
+
+/*tag selector*/ 
+/* span{
+  font-weight: bold;
+  text-decoration: underlined;
+} */
+/*class selector*/
+/* .change{
+  font-weight: bold;
+  font-style: italic;
+}
+.ok{
+  background-color: #000;
+  color: #fff;
+} */
+/*id selector*/
+/* #mm{ */
+  /* font-size: 3em;
+} */
+/**/
+/* div.change{
+  border: 1px solid #000;
+}
+div.change div:first-child{
+  color:#ff0000;
+}
+div.change div:last-child{
+  color: #00ffff;
+}
+div.change div:nth-child(4){
+  font-weight:bold ;
+} */
+
+body.light{
+  background-color: #fff;
+  color: #000;
+}
+body.dark{
+  background-color: #000;
+  color: #fff;
+}

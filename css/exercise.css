@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Ga+Maamli&family=Oswald:wght@200..700&display=swap');
+
+span{
+    border: 3px dotted #FFFF00;
+    font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+}

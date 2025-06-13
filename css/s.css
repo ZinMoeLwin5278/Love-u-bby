@@ -1,0 +1,126 @@
+table,th,td{
+  border:1px solid #000;
+  border-collapse: collapse; /* htmlေဘာင်ဖျောက်*/
+}
+table#table1 thead tr{
+  background-color: #ff0000;
+  color: antiquewhite;
+}
+/* 1st table ထဲက 1st tr ရဲ့ 2nd place Mg Mg*/
+table#table1 tbody tr:first-child td:nth-child(2){
+  /* padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-right: 40px; */
+  /* padding:10px; */
+  /* padding:20px 30px;top/bottom left/right */
+   padding:20px 30px 40px; /*top left/right bottom */
+
+}
+/*cursor ထောက်ရင် အရောင်ပြောင်း*/
+table#table2 tbody tr:hover{
+  background-color: #ff0000;
+  color: aliceblue;
+  cursor: pointer; /* pointerလက်ဝါးပုံစံ*/
+}
+p.p1{
+  width: 200px;
+  height: 300px;
+  background-color: #E4C34C;
+  /* overflow: hidden;  */
+  /* overflow: scroll; */ 
+  /* overflow: auto; removing left/right bar */
+  padding: 30px;
+}
+p.p2 img{
+  width: 200px;
+  float: left; /*left/right moving*/
+}
+button.hh{
+  background-color: #ff0000;
+  color: aliceblue;
+  padding: 20px;
+  border: none;
+}
+/*text box color and text  color*/
+input:focus{
+  background-color: #000;
+  color: aliceblue;
+}
+input:focus::part{
+color: aliceblue;
+}
+/*button color change*/
+button.rr{
+  background-color: aqua;
+  color: #000;
+  padding: 20px;
+  border: none;
+  float: right; /*moving left/right*/
+  
+}
+/*adding extra words left/right*/
+div.jj::before{
+  content: "ez";
+}
+div.jj::after{
+  content: "language";
+}
+/*doing first line*/
+div.first::first-line{
+  color: #ff0000;
+  font-weight: bold;
+}
+/*select tag color change*/
+div.first::selection{
+  background-color: #000;
+  color: aliceblue;
+}
+/*working first letter from first lettter*/
+div.first::first-letter{
+  background-color: aqua;
+  color: #E4C34C;
+}
+ul li::marker{
+  color: #FE9900;
+}
+div.maindiv{
+  width: 300px;
+  height: 100px;
+}
+div.maindiv div{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+div.maindiv div:first-child{
+  background-color: #ff0000;
+  color: antiquewhite;
+}
+/*margin playing*/
+div.maindiv div:nth-child(2){
+  background-color: #000;
+  color: antiquewhite;
+  /* margin: 20px; */
+  /* margin: 20px 10px 30px; */
+  /* margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px; */
+  /* margin: 10px 20px 30px; top left/right buttom */
+
+}
+div.maindiv div:nth-child(2):hover{
+  background-color: #ab1795;
+  color: aliceblue;
+}
+div.maindiv div:nth-child(2):active{
+  background-color: #FE9900;
+  color: #000;
+  font-size: 2em;
+  font-weight: bold;
+}
+div.maindiv div:last-child{
+  background-color: aqua;
+  color: antiquewhite;
+}

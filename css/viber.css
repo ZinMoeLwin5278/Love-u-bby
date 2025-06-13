@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+#header{
+    padding: 1em;
+}
+#header div:first-child{
+    width: 20%;
+    float: left;
+
+}
+#header div:first-child>img{
+    width: 127px;
+    padding: 5px;
+}
+#header div:nth-child(2){
+    width:60%;
+    float: left;
+}
+#header div:last-child{
+    width: 20%;
+    float: right;
+    padding-top: none;
+    margin-right: 5px;
+
+}
+#header div:last-child button{
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #8542b1;
+    color: #853cb5;
+    font-size: 1em;
+    padding: 0.2em 1em;
+    float: right;
+}
+#header div:nth-child(2) span{
+    color: #808080;
+    font-family: Arial;
+    margin-right: 1.5em;
+}

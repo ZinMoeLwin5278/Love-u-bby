@@ -1,0 +1,55 @@
+/* #main{ */
+    /* display: flex;
+    height: 50vh; */
+    /* flex-direction: row; /*column and row*/
+    /*justify-content: space-between; flex-start, center,flex-end, space-between*/
+  /* align-items: stretch;  /*flex-start, center, flex-end, baseline, stretch*/
+   /*flex-wrap: wrap;
+   align-content: start; /*start, center, end, space-betwen, space-around, space-evenly, stretch */
+   /*gap: 10px; /*row and column*/
+   /* gap: 10px 20px; row andd column */
+/* } */
+/* 
+ #main div{ 
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+
+} */
+
+/*#main div:nth-child(3){
+
+    align-self: end; /*start, center, end, base line, stretch
+}*/
+
+/*#menu{
+    display: block;
+    i
+
+}
+#menu div{
+    /* flex-wrap: warp;
+    /* width:100px ;
+    height: 100px;*/
+      /* align-items: stretch;  flex-start, center, flex-end, baseline, stretch
+
+    gap: 800px; */
+    /*width: 100px;
+    height: 100px;
+}*/
+#delu{
+    display: flex;
+    height: 50vh;
+    flex-direction: row;
+    /* justify-content: space-between; */
+   align-items: stretch;
+   flex-wrap: wrap;
+   align-content: start; 
+   gap: 10px;
+
+}
+#delu div{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}

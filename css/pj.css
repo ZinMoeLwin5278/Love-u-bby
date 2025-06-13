@@ -1,0 +1,88 @@
+h1{
+    text-align: center;
+}
+
+.section{
+    display: grid;
+   
+    gap: 8px;
+    margin: 0px 100px 0px;
+    justify-content:center ;
+    
+    /* grid-template-columns: 300px 1fr; */
+    grid-template-columns: auto auto auto auto auto auto auto auto; 
+}
+
+.section>div{
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px 20px 10px 20px;
+}
+
+.job{
+    display: grid;
+    text-align: center;
+    gap: 10px;
+    grid-template-columns: auto auto auto auto auto auto ; 
+    justify-content: space-evenly;
+    margin: 10px 160px 10px;
+    padding-top: 50px;
+}
+
+.job>div {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+   padding-top: 20px;
+   padding-bottom: 10px;
+
+}
+
+@media screen and (max-width:767px){
+   .job{
+       grid-template-columns: 1fr;
+    }
+
+    .section>div{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px){
+    .job{
+        grid-template-columns: auto auto auto auto;
+     }
+
+     .section>div{
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1280px){
+    .job{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+     }
+
+     .section>div{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:1281px){
+    .job{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+     }
+
+     .section>div{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
